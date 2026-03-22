@@ -15,7 +15,7 @@ jobs:
        run:  echo "its me pershotamCodes"
 
      - name: check the Docker installation
-       run:  docker docker images
+       run:  docker images
 
      - name: Run Docker Contanier
        run:  docker run hello-world 
