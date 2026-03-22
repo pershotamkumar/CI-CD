@@ -11,6 +11,13 @@ jobs:
    steps:
      - uses: actions/checkout@v4
      
-     - name: my first stop
+     - name: Initilize Repo
        run:  echo "its me pershotamCodes"
+
+     - name: check the Docker installation
+       run:  docker docker images
+
+     - name: Run Docker Contanier
+       run:  docker run hello-world 
+       
      
