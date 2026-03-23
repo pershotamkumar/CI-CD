@@ -12,7 +12,7 @@ jobs:
      - uses: actions/checkout@v4
      
      - name: Initilize Repo
-       run:  echo "its me pershotamCodes"
+       run:  echo "this is my first pipline"
 
      - name: check the Docker installation
        run:  docker images
